@@ -9,11 +9,11 @@
                 <span><a href="#">Lifestyle</a></span>
               </div>
               <div class="blog-post__title">
-                <h1><a href="single-post.html">Fall In Love With Cat</a></h1>
+                <h1><a href="single-post.html">{{ post.title }}</a></h1>
               </div>
               <div class="blog-post__info">
-                <span>By <a href="#">Westa</a></span>
-                <span>November 14, 2018</span>
+                <span>By <a href="#">{{ post.author }}</a></span>
+                <span>{{ post.created_time }}</span>
                 <span><a href="#">3 Comments</a></span>
               </div>
             </div>
@@ -22,30 +22,7 @@
             </div>
             <div class="blog-post-wrapper">
               <div class="blog-post__content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Suspendisse lobortis</a> commodo ullamcorper. Duis pretium convallis odio non varius. Nulla quis lorem metus. Fusce velit magna, ultricies quis elit sit amet, lacinia porttitor magna. Nulla scelerisque, ex quis imperdiet finibus, elit massa dictum arcu, et fermentum orci felis in ipsum. Suspendisse rutrum nec ipsum id feugiat. Nunc eu lacinia turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam dapibus cursus justo.</p>
-                <img class="blog-post__content-imagefull" src="img/single-post1.jpg" alt="Fall In Love With Cat">
-                <p>Quis eu odio imperdiet dictumst faucibus quam nostra lorem lorem facilisi sem eget aliquet dignissim ornare ultrices ut. Posuere aliquam maecenas imperdiet sit nonummy. Aenean auctor nulla est auctor conubia porttitor elementum taciti hymenaeos Aptent dui justo donec porta neque Lacinia Dui aliquet. Cras ullamcorper nulla tortor eros maecenas sodales magnis natoque sit placerat parturient mattis nunc dictumst. Non molestie justo pharetra natoque nec. Integer tristique lacinia ultrices.</p>
-                <img class="blog-post__content-imagefull" src="img/single-post2.jpg" alt="Fall In Love With Cat">
-                <p>Mauris. Nunc quis justo felis Nibh Elementum eu proin lacinia magnis nonummy. Consectetuer. Enim maecenas. Dictum id sed. Habitasse magna taciti suscipit sociis tellus ad, diam orci et lorem purus in rutrum molestie parturient urna porta auctor inceptos venenatis eget congue. Metus vivamus Convallis, primis felis sodales nulla viverra dictum platea sed. Curabitur, varius justo platea. Libero litora, gravida nibh risus turpis ornare congue vestibulum mus.</p>
-                <ul>
-                  <li>Porttitor justo lobortis sapien.</li>
-                  <li>Phasellus inceptos Porttitor.</li>
-                  <li>Aliquam in fames et.</li>
-                  <li>Elementum odio rutrum vehicula. Platea.</li>
-                  <li>Dui amet lacinia congue.</li>
-                </ul>
-                <ol>
-                  <li>Suscipit adipiscing vitae risus tellus.</li>
-                  <li>Tempor. Elit. Nascetur. Dis elementum.</li>
-                  <li>Dignissim. Ultricies lobortis blandit.</li>
-                  <li>Rhoncus etiam, leo cum euismod semper, molestie, turpis.</li>
-                  <li>Mi volutpat sagittis tempor, mi dignissim elit potenti.</li>
-                </ol>
-                <p>Feugiat ante proin mi volutpat Torquent habitasse aliquet orci sapien fringilla gravida. Ridiculus ultrices adipiscing ornare, et platea pretium sit elit dictum tortor vivamus mattis. Bibendum. Hendrerit porttitor lacus eget ante facilisis arcu sodales vel aenean. Imperdiet netus. Blandit potenti tristique penatibus risus morbi ante Magnis arcu proin placerat sociosqu suspendisse. Dolor. Tortor per sapien Dictumst Vitae Eleifend sociis ultrices quis a. Rutrum ligula ornare. Turpis.</p>
-                <blockquote>
-                  <p>Pulvinar neque. <a href="#">Habitant integer</a> ultricies sapien penatibus scelerisque molestie. Nostra libero per ipsum velit faucibus neque nonummy. Justo. Pellentesque tempor facilisis inceptos Fringilla mus curabitur posuere nam. Litora. Rhoncus commodo nonummy.</p>
-                </blockquote>
-                <p>Diam pede metus porta. Fermentum ac suspendisse euismod dui nisl sapien vehicula etiam suscipit aptent risus nostra facilisi commodo sagittis ligula ultricies Facilisis ante egestas metus tristique cum turpis odio lacinia porttitor ullamcorper nonummy hac nostra blandit quisque. Tellus. Inceptos faucibus sed platea montes. Condimentum euismod Enim eros imperdiet id luctus dapibus.</p>
+                <p>{{ post.body|safe }}</p>
                 <img class="blog-post__content-imagefull" src="img/single-post3.jpg" alt="Fall In Love With Cat">
               </div>
               <div class="blog-post__footer">

@@ -1,5 +1,6 @@
 ﻿{% extends 'blog/base.html' %}
 {% load static %}
+{% load blog_tags %}
 
 {% block top-slider %}
   <section class="container  top-slider">
@@ -140,9 +141,9 @@
               <div class="sidebar-widget__about-me-image">
                 <img src="{% static 'blog/img/about-me.jpg' %}" alt="About Me">
               </div>
-              <p>Duis pretium convallis odio non varius. Nulla quis lorem metus.</p>
+              <p>Do believe the faith in what you're doing and don't panic.</p>
               <span class="sidebar-widget__about-me-link">
-                <a href="about.html">Read More</a>
+                <a href="about.html">我我我</a>
               </span>
             </div>
           </div>
@@ -179,97 +180,48 @@
             </div>
           </div>
           <div class="sidebar-widget">
-            <div class="sidebar-widget__banner">
-              <a href="#"><img src="img/banner.jpg" alt="Banner"></a>
-            </div>
-          </div>
-          <div class="sidebar-widget">
-            <h3>Popular Posts</h3>
+            <h3>Recent Posts</h3>
             <div class="sidebar-widget__popular">
-              <div class="sidebar-widget__popular-item">
+              {% get_recent_posts as recent_posts_list %}
+                {% for post in recent_posts_list %}
+                <div class="sidebar-widget__popular-item">
                 <div class="sidebar-widget__popular-item-image">
                   <a href="single-post.html"><img src="{% static 'blog/img/sidebar1.jpg' %}" alt="7 Quick Tips For Coffee"></a>
                 </div>
                 <div class="sidebar-widget__popular-item-info">
                   <div class="sidebar-widget__popular-item-date">
-                    <span>November 15, 2018</span>
+                    <span>{{ post.created_time }}</span>
                   </div>
                   <div class="sidebar-widget__popular-item-content">
-                    <a href="single-post.html">7 Quick Tips For Coffee</a>
+                    <a href="single-post.html">{{ post.title }}</a>
                   </div>
                 </div>
               </div>
-              <div class="sidebar-widget__popular-item">
-                <div class="sidebar-widget__popular-item-image">
-                  <a href="single-post.html"><img src="img/sidebar2.jpg" alt="The Shocking Revelation of Books"></a>
-                </div>
-                <div class="sidebar-widget__popular-item-info">
-                  <div class="sidebar-widget__popular-item-date">
-                    <span>November 11, 2018</span>
-                  </div>
-                  <div class="sidebar-widget__popular-item-content">
-                    <a href="single-post.html">The Shocking Revelation of Books</a>
-                  </div>
-                </div>
-              </div>
-              <div class="sidebar-widget__popular-item">
-                <div class="sidebar-widget__popular-item-image">
-                  <a href="single-post.html"><img src="img/sidebar3.jpg" alt="How Pen Can Ease Your Pain"></a>
-                </div>
-                <div class="sidebar-widget__popular-item-info">
-                  <div class="sidebar-widget__popular-item-date">
-                    <span>October 27, 2018</span>
-                  </div>
-                  <div class="sidebar-widget__popular-item-content">
-                    <a href="single-post.html">How Pen Can Ease Your Pain</a>
-                  </div>
-                </div>
-              </div>
-              <div class="sidebar-widget__popular-item">
-                <div class="sidebar-widget__popular-item-image">
-                  <a href="single-post.html"><img src="img/sidebar4.jpg" alt="Why Is Guitar So Famous?"></a>
-                </div>
-                <div class="sidebar-widget__popular-item-info">
-                  <div class="sidebar-widget__popular-item-date">
-                    <span>October 15, 2018</span>
-                  </div>
-                  <div class="sidebar-widget__popular-item-content">
-                    <a href="single-post.html">Why Is Guitar So Famous?</a>
-                  </div>
-                </div>
-              </div>
-              <div class="sidebar-widget__popular-item">
-                <div class="sidebar-widget__popular-item-image">
-                  <a href="single-post.html"><img src="img/sidebar5.jpg" alt="How To Get People To Like Cafe"></a>
-                </div>
-                <div class="sidebar-widget__popular-item-info">
-                  <div class="sidebar-widget__popular-item-date">
-                    <span>October 9, 2018</span>
-                  </div>
-                  <div class="sidebar-widget__popular-item-content">
-                    <a href="single-post.html">How To Get People To Like Cafe</a>
-                  </div>
-                </div>
-              </div>
+                {% empty %}
+                 暂无文章！
+                {% endfor %}
+            </div>
+          </div>
+          <div class="sidebar-widget">
+            <h3>Category Cloud</h3>
+            <div class="sidebar-widget__tag-cloud">
+              {% get_categories as category_list %}
+                {% for category in category_list %}
+                  <a href="#">{{ category.name }}</a>
+                {% empty %}
+                 暂无分类！
+                {% endfor %}
             </div>
           </div>
           <div class="sidebar-widget">
             <h3>Tag Cloud</h3>
             <div class="sidebar-widget__tag-cloud">
-              <a href="#">Travel</a>
-              <a href="#">Music</a>
-              <a href="#">Arts</a>
-              <a href="#">Creative</a>
-              <a href="#">Fashion</a>
-            </div>
-          </div>
-          <div class="sidebar-widget">
-            <h3>Instagram</h3>
-            <div class="sidebar-widget__instagram">
-              <a href="#"><img src="img/instagram1.jpg" alt="Instagram"></a>
-              <a href="#"><img src="img/instagram2.jpg" alt="Instagram"></a>
-              <a href="#"><img src="img/instagram3.jpg" alt="Instagram"></a>
-              <a href="#"><img src="img/instagram4.jpg" alt="Instagram"></a>
+              {% get_tags as tag_list %}
+                {% for tag in tag_list %}
+                  <a href="#">{{ tag.name }}</a>
+                {% empty %}
+                 暂无分类！
+                {% endfor %}
             </div>
           </div>
           <div class="sidebar-widget">
@@ -289,13 +241,13 @@
                   <div class="featured-image__bg"></div>
                   <div class="featured-image__content">
                     <span class="featured-image__content-category">
-                      <a href="#">Lifestyle</a>
+                      <a href="#">Here</a>
                     </span>
                     <span class="featured-image__content-title">
-                      <a href="single-post.html">Fall In Love With Cat</a>
+                      <a href="single-post.html">For Advertisement</a>
                     </span>
                     <span class="featured-image__content-link">
-                      <a href="single-post.html">Read More</a>
+                      <a href="single-post.html">CONTACT ME</a>
                     </span>
                   </div>
                   <a class="featured-image__overlay-link" href="single-post.html"></a>
