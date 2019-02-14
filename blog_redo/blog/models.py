@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.urls import reverse
+from ckeditor_uploader.fields import RichTextUploadingField
 
 
 class Category(models.Model):
@@ -21,7 +23,7 @@ class Post(models.Model):
     title = models.CharField(max_length=70)
 
     # 正文
-    body = models.TextField()
+    body = RichTextUploadingField()
 
     # 时间
     created_time = models.DateTimeField()
@@ -37,3 +39,6 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    def get_absolute_url(self):
+        return reverse('blog:detail', kwargs={'pk': self.pk})
