@@ -6,11 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mytopia</title>
-    <link rel="shortcut icon" href="{% static 'blog/img/favicon.png' %}">
+    <link href="{% static 'blog/img/favicon.png' %}" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
     <link href="{% static 'blog/css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'blog/css/jquery.bxslider.css' %}" rel="stylesheet">
     <link href="{% static 'blog/css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'blog/highlight/github.css' %}" rel="stylesheet">
   </head>
   <body>
     <svg class="display-none">
@@ -330,5 +331,7 @@
     <script src="{% static 'blog/js/jquery.slicknav.min.js' %}"></script>
     <script src="{% static 'blog/js/jquery.bxslider.min.js' %}"></script>
     <script src="{% static 'blog/js/script.js' %}"></script>
+    <script src="{% static 'blog/highlight/highlight.pack.js' %}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
