@@ -5,7 +5,7 @@ from .models import Category, Tag, Post
 
 
 class PostAdmin(admin.ModelAdmin):
-    list_display = ('title', 'body', 'created_time', 'modified_time', 'excerpt', 'author')
+    list_display = ('title', 'excerpt', 'created_time', 'modified_time', 'author')
 
 
 admin.site.register(Category)

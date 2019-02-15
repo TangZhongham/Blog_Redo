@@ -23,7 +23,7 @@ class Post(models.Model):
     title = models.CharField(max_length=70)
 
     # 正文
-    body = RichTextUploadingField()
+    body = RichTextUploadingField(config_name='default')
 
     # 时间
     created_time = models.DateTimeField()
@@ -36,6 +36,8 @@ class Post(models.Model):
     tags = models.ManyToManyField(Tag, blank=True)
 
     author = models.ForeignKey(User, on_delete=True)
+
+    image = models.ImageField(upload_to='upload/carousel/%Y/%m/%d')
 
     def __str__(self):
         return self.title
