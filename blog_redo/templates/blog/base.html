@@ -123,8 +123,8 @@
           </div>
         </div>
         <div class="col-md-6  logo">
-          <h1><a class="logo__link" href="index.html">{{ title }}</a></h1>
-          <div class="logo__description">{{ welcome }}</div>
+          <h1><a class="logo__link" href="index.html">Mytopia</a></h1>
+          <div class="logo__description">Welcome to my place.</div>
         </div>
         <div class="col-md-3  header__right">
           <div class="top-icons">
@@ -139,7 +139,7 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item  nav__item--active">
-            <a href="index.html">Home</a>
+            <a href="{% url 'blog:index' %}">Home</a>
             <ul class="nav__list-submenu">
               <li class="nav__item-submenu">
                 <a href="index-fullwidth.html">Home Fullwidth</a>
@@ -176,22 +176,11 @@
           <li class="nav__item">
             <a href="category.html">Lifestyle</a>
             <ul class="nav__list-submenu">
-              <li class="nav__item-submenu">
-                <a href="category-fullwidth.html">Category Fullwidth</a>
-              </li>
-              <li class="nav__item-submenu">
-                <a href="category-grid.html">Category Grid</a>
+                <li class="nav__item-submenu">
+                <a href="category-fullwidth.html">Category Year</a>
                 <ul class="nav__list-submenu">
                   <li class="nav__item-submenu">
-                    <a href="category-grid-fullwidth.html">Category Grid Fullwidth</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav__item-submenu">
-                <a href="category-list.html">Category List</a>
-                <ul class="nav__list-submenu">
-                  <li class="nav__item-submenu">
-                    <a href="category-list-fullwidth.html">Category List Fullwidth</a>
+                    <a href="category-grid-fullwidth.html">Category Month</a>
                   </li>
                 </ul>
               </li>
@@ -225,7 +214,7 @@
     </main>
     <footer class="page-footer">
       <div class="container  page-footer__top">
-        <div class="col-sm-5  col-md-5">
+        <div class="col-sm-4  col-md-4">
           <div class="page-footer__top-about">
             <h4>TZH</h4>
             <p>Personal blog for tech and fun.</p>
@@ -233,7 +222,7 @@
             <p>Email: <a href="mailto:mail@danielanri.com">tangzhongham@gmail.com</a></p>
           </div>
         </div>
-        <div class="col-sm-3  col-md-3">
+        <div class="col-sm-4  col-md-4">
           <h4>Categories</h4>
           <nav class="page-footer__nav">
             <ul class="page-footer__nav-items">
@@ -248,29 +237,6 @@
               </li>
             </ul>
           </nav>
-        </div>
-        <div class="col-sm-4  col-md-4">
-          <h4>Recent Posts</h4>
-          <div class="page-footer__recent-post">
-            <div class="page-footer__recent-post-info">
-              <div class="page-footer__recent-post-content">
-                <a href="single-post.html">Why Glass Had Been So Popular Till Now?</a>
-              </div>
-              <div class="page-footer__recent-post-date">
-                <span>November 16, 2018</span>
-              </div>
-            </div>
-          </div>
-          <div class="page-footer__recent-post">
-            <div class="page-footer__recent-post-info">
-              <div class="page-footer__recent-post-content">
-                <a href="single-post.html">Fall In Love With Cat</a>
-              </div>
-              <div class="page-footer__recent-post-date">
-                <span>November 14, 2018</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div class="container  page-footer__bottom">

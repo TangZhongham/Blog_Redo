@@ -1,4 +1,6 @@
 ﻿{% extends 'blog/base.html' %}
+{% load static %}
+
 
 {% block container %}
   <div class="container">
@@ -18,19 +20,17 @@
               </div>
             </div>
             <div class="blog-post__image">
-              <a href="single-post.html"><img src="img/img1.jpg" alt="Fall In Love With Cat"></a>
+              <a href="#"><img src="{{ post.image.url }}" alt="This should be an image"></a>
             </div>
             <div class="blog-post-wrapper">
               <div class="blog-post__content">
                 <p>{{ post.body|safe }}</p>
-                <img class="blog-post__content-imagefull" src="img/single-post3.jpg" alt="Fall In Love With Cat">
               </div>
               <div class="blog-post__footer">
                 <div class="blog-post__footer-tags">
                   <h3>Tags:</h3>
                   <div class="blog-post__footer-tags-list">
-                    <a href="#">Arts</a>
-                    <a href="#">Creative</a>
+                    <a href="#">{{ post.tags.name }}</a>
                   </div>
                 </div>
                 <div class="blog-post__footer-social">
@@ -61,11 +61,11 @@
               </div>
               <div class="blog-post__author">
                 <div class="blog-post__author-avatar">
-                  <img src="img/author.jpg" alt="Author">
+                  <img src="{% static 'blog/img/user_avatar.png' %}" alt="Author">
                 </div>
                 <div class="blog-post__author-info">
-                  <h5>Written by Daniel Anri</h5>
-                  <p>Massa est vehicula mauris dignissim vulputate turpis massa, eget sociis nonummy tristique at suscipit quis natoque dolor penatibus praesent odio nisi erat. Consequat eget cubilia. Mi elementum augue. Nisi sociis.</p>
+                  <h5>Written by TZH</h5>
+                  <p>This is some trash talk, just for fun.</p>
                   <div class="blog-post__author-info-social">
                     <a href="#">
                       <svg>
@@ -113,20 +113,6 @@
                   </a>
                   <span>November 16, 2018</span>
                 </div>
-                <div class="blog-post__related-item">
-                  <a href="#">
-                    <img src="img/img2.jpg" alt="All You Need To Know About Forest">
-                    <h6>All You Need To Know About Forest</h6>
-                  </a>
-                  <span>November 10, 2018</span>
-                </div>
-                <div class="blog-post__related-item">
-                  <a href="#">
-                    <img src="img/img3.jpg" alt="Skills That You Can Learn From Book">
-                    <h6>Skills That You Can Learn From Book</h6>
-                  </a>
-                  <span>November 7, 2018</span>
-                </div>
               </div>
               <div class="blog-post__comments">
                 <h5>3 Comments</h5>
@@ -134,7 +120,7 @@
                   <li class="blog-post__comments-item">
                     <div class="blog-post__comments-item-body">
                       <div class="blog-post__comments-item-avatar">
-                        <img src="img/comment1.jpg" alt="Comment Author">
+                        <img src="{% static 'blog/img/user_avatar.png' %}" alt="Comment Author">
                       </div>
                       <div class="blog-post__comments-item-right">
                         <div class="blog-post__comments-item-reply">
@@ -143,7 +129,7 @@
                         <div class="blog-post__comments-item-info">
                           <div class="blog-post__comments-item-info-author">
                             <span>
-                              <a href="#">Matt Kian</a>
+                              <a href="#">评论功能待实现</a>
                             </span>
                           </div>
                           <div class="blog-post__comments-item-info-date">
@@ -153,7 +139,7 @@
                           </div>
                         </div>
                         <div class="blog-post__comments-item-post">
-                          <p>Dignissim pharetra consequat condimentum scelerisque. Vestibulum sagittis scelerisque montes enim Cursus dui lectus cras mattis Laoreet aliquam varius ut adipiscing interdum lacus risus mattis urna semper cras hendrerit, morbi nonummy.</p>
+                          <p>待实现</p>
                         </div>
                       </div>
                     </div>
@@ -161,7 +147,7 @@
                       <li class="blog-post__comments-item">
                         <div class="blog-post__comments-item-body">
                           <div class="blog-post__comments-item-avatar">
-                            <img src="img/comment2.jpg" alt="Comment Author">
+                            <img src="{% static 'blog/img/user_avatar.png' %}" alt="Comment Author">
                           </div>
                           <div class="blog-post__comments-item-right">
                             <div class="blog-post__comments-item-reply">
@@ -186,33 +172,6 @@
                         </div>
                       </li>
                     </ul>
-                  </li>
-                  <li class="blog-post__comments-item">
-                    <div class="blog-post__comments-item-body">
-                      <div class="blog-post__comments-item-avatar">
-                        <img src="img/comment3.jpg" alt="Comment Author">
-                      </div>
-                      <div class="blog-post__comments-item-right">
-                        <div class="blog-post__comments-item-reply">
-                          <a href="#">Reply</a>
-                        </div>
-                        <div class="blog-post__comments-item-info">
-                          <div class="blog-post__comments-item-info-author">
-                            <span>
-                              <a href="#">Jess Lavone</a>
-                            </span>
-                          </div>
-                          <div class="blog-post__comments-item-info-date">
-                            <span>
-                              <a href="#">October, 2018 at 9:48 pm</a>
-                            </span>
-                          </div>
-                        </div>
-                        <div class="blog-post__comments-item-post">
-                          <p>Dapibus ullamcorper ullamcorper class potenti sed, rhoncus arcu. Ligula iaculis aliquet, interdum luctus porttitor lacinia eu etiam. Pede elementum nisl dui facilisis at, metus facilisi, class consectetuer. Feugiat malesuada dis.</p>
-                        </div>
-                      </div>
-                    </div>
                   </li>
                 </ul>
                 <div class="blog-post__comments-respond">

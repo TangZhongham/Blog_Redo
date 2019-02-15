@@ -37,7 +37,10 @@ class Post(models.Model):
 
     author = models.ForeignKey(User, on_delete=True)
 
-    image = models.ImageField(upload_to='upload/carousel/%Y/%m/%d')
+    image = models.ImageField(upload_to='upload/carousel/%Y/%m/%d', blank=True)
+
+    class Meta:
+        ordering = ['-created_time']
 
     def __str__(self):
         return self.title

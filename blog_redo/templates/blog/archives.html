@@ -7,7 +7,7 @@
       <div class="col-md-12">
         <div class="bxslider">
           <div>
-            <div class="featured-image" style="background-image:url({% static 'blog/img/pink.jpg' %});">
+            <div class="featured-image" style="background-image:url({% static 'blog/img/img1.jpg' %});">
               <div class="featured-image__bg"></div>
               <div class="featured-image__content">
                 <span class="featured-image__content-category">
@@ -24,7 +24,7 @@
             </div>
           </div>
           <div>
-            <div class="featured-image" style="background-image:url({% static 'blog/img/pink_sea.jpg' %});">
+            <div class="featured-image" style="background-image:url({% static 'blog/img/img2.jpg' %});">
               <div class="featured-image__bg"></div>
               <div class="featured-image__content">
                 <span class="featured-image__content-category">
@@ -41,7 +41,7 @@
             </div>
           </div>
           <div>
-            <div class="featured-image" style="background-image:url({% static 'blog/img/golden_sea.jpg' %});">
+            <div class="featured-image" style="background-image:url({% static 'blog/img/img3.jpg' %});">
               <div class="featured-image__bg"></div>
               <div class="featured-image__content">
                 <span class="featured-image__content-category">
@@ -80,12 +80,6 @@
                 <span><a href="#">1 Comments</a></span>
               </div>
             </div>
-            {% if post.image %}
-              <div class="blog-post__image">
-                <a href="{{ post.get_absolute_url }}"><img src="{{ post.image.url }}" alt="This should be a photo"></a>
-              </div>
-            {% else %}
-            {% endif %}
             <div class="blog-post-wrapper">
               <div class="blog-post__content">
                 <p>{{ post.excerpt|safe }}</p>
@@ -126,10 +120,10 @@
           <nav class="blog-pagination">
             <ul class="blog-pagination__items">
               <li class="blog-pagination__item  blog-pagination__item--active">
-                <a>分页待实现</a>
+                <a>1</a>
               </li>
               <li class="blog-pagination__item">
-                <a href="#">1</a>
+                <a href="#">2</a>
               </li>
               <li class="blog-pagination__item">
                 <a href="#">Next Page</a>
@@ -142,7 +136,7 @@
             <h3>About Me</h3>
             <div class="sidebar-widget__about-me">
               <div class="sidebar-widget__about-me-image">
-                <img src="{% static 'blog/img/about_me.jpg' %}" alt="About Me">
+                <img src="{% static 'blog/img/about-me.jpg' %}" alt="About Me">
               </div>
               <p>Do believe the faith in what you're doing and don't panic.</p>
               <span class="sidebar-widget__about-me-link">
@@ -240,7 +234,7 @@
           <div class="sidebar-widget">
             <div class="sidebar-slider">
               <div>
-                <div class="featured-image" style="background-image:url({% static 'blog/img/surf_1.jpeg' %});">
+                <div class="featured-image" style="background-image:url(img/img1.jpg);">
                   <div class="featured-image__bg"></div>
                   <div class="featured-image__content">
                     <span class="featured-image__content-category">
@@ -251,6 +245,40 @@
                     </span>
                     <span class="featured-image__content-link">
                       <a href="single-post.html">CONTACT ME</a>
+                    </span>
+                  </div>
+                  <a class="featured-image__overlay-link" href="single-post.html"></a>
+                </div>
+              </div>
+              <div>
+                <div class="featured-image" style="background-image:url(img/img0.jpg);">
+                  <div class="featured-image__bg"></div>
+                  <div class="featured-image__content">
+                    <span class="featured-image__content-category">
+                      <a href="#">Inspiration</a>
+                    </span>
+                    <span class="featured-image__content-title">
+                      <a href="single-post.html">Why Glass Had Been So Popular Till Now?</a>
+                    </span>
+                    <span class="featured-image__content-link">
+                      <a href="single-post.html">Read More</a>
+                    </span>
+                  </div>
+                  <a class="featured-image__overlay-link" href="single-post.html"></a>
+                </div>
+              </div>
+              <div>
+                <div class="featured-image" style="background-image:url(img/img3.jpg);">
+                  <div class="featured-image__bg"></div>
+                  <div class="featured-image__content">
+                    <span class="featured-image__content-category">
+                      <a href="#">Lifestyle</a>
+                    </span>
+                    <span class="featured-image__content-title">
+                      <a href="single-post.html">Skills That You Can Learn From Book</a>
+                    </span>
+                    <span class="featured-image__content-link">
+                      <a href="single-post.html">Read More</a>
                     </span>
                   </div>
                   <a class="featured-image__overlay-link" href="single-post.html"></a>
