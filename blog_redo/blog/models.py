@@ -47,3 +47,31 @@ class Post(models.Model):
 
     def get_absolute_url(self):
         return reverse('blog:detail', kwargs={'pk': self.pk})
+
+
+# user
+class UserPost(models.Model):
+    # 标题
+    title = models.CharField(max_length=70)
+
+    # 正文
+    body = RichTextUploadingField(config_name='default')
+
+    # 时间
+    created_time = models.DateField(auto_now_add=True)
+
+    # excerpt
+    # excerpt = models.CharField(max_length=200, blank=True)
+
+    author = models.ForeignKey(User, on_delete=True)
+
+    # image = models.ImageField(upload_to='upload/user/%Y/%m/%d', blank=True)
+
+    class Meta:
+        ordering = ['-created_time']
+
+    def __str__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return reverse('blog:detail', kwargs={'pk': self.pk})

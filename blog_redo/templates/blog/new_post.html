@@ -1,0 +1,34 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+
+
+{% block container %}
+<div class="container">
+<div class="col-md-12  col-lg-12">
+    <div class="blog-post  blog-post--fullwidth  blog-post--page">
+        <div class="blog-post-wrapper  blog-post-wrapper--404">
+            <form action="{% url 'blog:new_post' %}" method="post" class="form">
+                {% csrf_token %}
+                <div class="form-group blog-post__title">
+                {% bootstrap_label "标题" label_for="title" %}
+                {% bootstrap_field form.title layout='inline' %}
+                <small id="emailHelp" class="form-text text-muted">You can say what's so ever you want.</small>
+                </div>
+                <div class="form-group blog-post__title">
+                {% bootstrap_label "作者" label_for="author" %}
+                {% bootstrap_field form.author layout='inline' %}
+                </div>
+                <div class="form-group blog-post__content  blog-post__content--404 ">
+                {% bootstrap_label "说" label_for="say so" %}
+                {% bootstrap_field form.body layout='inline' %}
+                </div>
+                <button name="submit" class="btn btn-light">add post</button>
+            </form>
+        </div>
+    </div>
+<div>
+<div>
+{% endblock container %}

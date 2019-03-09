@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'fm+9z^nw_b^geamrx@3)q*jsx0c_p5^95wrh9w*p=t=32+zc94'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.huai123.fun']
 
 
@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'ckeditor',
     'ckeditor_uploader',
+    'gunicorn',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [

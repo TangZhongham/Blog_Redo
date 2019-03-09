@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d3adf9-eb5e-442c-8318-6da5f5bfecf8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/blog_redo/blog/static/blog/img/about_me.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_redo/blog/static/blog/img/golden_sea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_redo/blog/static/blog/img/pink.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_redo/blog/static/blog/img/pink_sea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_redo/blog/static/blog/img/surf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_redo/blog/static/blog/img/surf_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_redo/blog/static/blog/img/user_avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_redo/templates/blog/archives.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_redo/blog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_redo/templates/blog/new_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_redo/templates/blog/posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_redo/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_redo/blog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_redo/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_redo/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_redo/blog/static/blog/img/about-me.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_redo/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_redo/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_redo/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_redo/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_redo/blog_redo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_redo/blog_redo/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_redo/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog_redo/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_redo/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog_redo/templates/blog/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_redo/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog_redo/templates/blog/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,88 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog_redo/blog/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog_redo/blog_redo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="399">
+              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="new_post.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/new_post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-815">
-              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog_tags.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog_redo/blog/templatetags/blog_tags.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
-              <folding>
-                <element signature="n#section#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archives.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/archives.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
-              <folding>
-                <element signature="n#section#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog_redo/blog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -118,10 +44,22 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog_redo/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="254">
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/posts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="n#section#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -130,8 +68,8 @@
       <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="-976">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
@@ -146,9 +84,10 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="126" column="61" selection-start-line="126" selection-start-column="61" selection-end-line="126" selection-end-column="61" />
+            <state relative-caret-position="195">
+              <caret line="213" column="11" lean-forward="true" selection-start-line="213" selection-start-column="11" selection-end-line="213" selection-end-column="11" />
               <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#symbol#0;n#svg#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#symbol#1;n#svg#0;n#body#0;n#html#0;n#!!top" />
@@ -159,14 +98,66 @@
                 <element signature="n#symbol#6;n#svg#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#symbol#7;n#svg#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#symbol#8;n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#li#2;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#3;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-fullwidth.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog_redo/templates/Westa/index-fullwidth.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5227">
+              <caret line="217" column="23" selection-start-line="217" selection-end-line="218" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog_redo/blog/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog_redo/blog/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog_redo/blog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,14 +169,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>bod</find>
-      <find>date</find>
       <find>title</find>
+      <find>date</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,19 +200,21 @@
         <option value="$PROJECT_DIR$/blog_redo/blog_redo/urls.py" />
         <option value="$PROJECT_DIR$/blog_redo/blog/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/blog_redo/blog/templatetags/blog_tags.py" />
-        <option value="$PROJECT_DIR$/blog_redo/blog/admin.py" />
         <option value="$PROJECT_DIR$/blog_redo/templates/blog/archives.html" />
-        <option value="$PROJECT_DIR$/blog_redo/blog/urls.py" />
         <option value="$PROJECT_DIR$/blog_redo/templates/blog/detail.html" />
-        <option value="$PROJECT_DIR$/blog_redo/templates/blog/base.html" />
-        <option value="$PROJECT_DIR$/blog_redo/blog/views.py" />
         <option value="$PROJECT_DIR$/blog_redo/templates/blog/index.html" />
+        <option value="$PROJECT_DIR$/blog_redo/blog/admin.py" />
+        <option value="$PROJECT_DIR$/blog_redo/templates/blog/base.html" />
         <option value="$PROJECT_DIR$/blog_redo/blog/models.py" />
+        <option value="$PROJECT_DIR$/blog_redo/blog/forms.py" />
+        <option value="$PROJECT_DIR$/blog_redo/blog/urls.py" />
+        <option value="$PROJECT_DIR$/blog_redo/blog/views.py" />
         <option value="$PROJECT_DIR$/blog_redo/blog_redo/settings.py" />
+        <option value="$PROJECT_DIR$/blog_redo/templates/blog/new_post.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -245,6 +239,62 @@
               <item name="Blog_Redo" type="462c0819:PsiDirectoryNode" />
               <item name="blog_redo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Blog_Redo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog_Redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog_redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog_Redo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog_Redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog_redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog_Redo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog_Redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog_redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog_Redo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog_Redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog_redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog_Redo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog_Redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog_redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog_redo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog_Redo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog_Redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog_redo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog_Redo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog_Redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog_redo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog_Redo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog_Redo" type="462c0819:PsiDirectoryNode" />
+              <item name="blog_redo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Westa" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -253,19 +303,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/blog_redo/blog/static/blog/img" />
-      <recent name="$PROJECT_DIR$/blog_redo/templates/blog" />
-      <recent name="$PROJECT_DIR$/blog_redo/blog/static/blog/highlight" />
-      <recent name="$PROJECT_DIR$/blog_redo/blog/static/blog/hightlight" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/blog_redo/media" />
       <recent name="$PROJECT_DIR$/blog_redo/templates/blog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog_redo/templates/blog" />
+      <recent name="$PROJECT_DIR$/blog_redo/blog/static/blog/img" />
+      <recent name="$PROJECT_DIR$/blog_redo/blog/static/blog/highlight" />
+      <recent name="$PROJECT_DIR$/blog_redo/blog/static/blog/hightlight" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -369,40 +420,57 @@
       <option name="project" value="LOCAL" />
       <updated>1550198187041</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="项目初步完成，等待替换">
+      <created>1550219129367</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550219129367</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32983193" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32983193" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32878152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5367647" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39810926" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4332966" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39801544" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32983193" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39810926" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43382353" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32878152" />
-    </layout>
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39801544" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4332966" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32983193" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -438,96 +506,10 @@
     <MESSAGE value="网站主体完成，后台添加富文本编辑、图片上传功能。" />
     <MESSAGE value="前端后台添加代码高亮功能" />
     <MESSAGE value="后端添加图片用于carousel展示，市区迭代" />
-    <option name="LAST_COMMIT_MESSAGE" value="后端添加图片用于carousel展示，市区迭代" />
+    <MESSAGE value="项目初步完成，等待替换" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目初步完成，等待替换" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog_redo/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog_redo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#form#0;n#div#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/templatetags/blog_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog_redo/blog_redo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -557,6 +539,7 @@
         <state relative-caret-position="-379">
           <caret line="277" column="24" selection-start-line="277" selection-start-column="24" selection-end-line="277" selection-end-column="24" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#symbol#0;n#svg#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#symbol#1;n#svg#0;n#body#0;n#html#0;n#!!top" />
@@ -567,9 +550,11 @@
             <element signature="n#symbol#6;n#svg#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#symbol#7;n#svg#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#symbol#8;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#3;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
@@ -702,13 +687,42 @@
     <entry file="file://$PROJECT_DIR$/blog_redo/blog/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/blog/templatetags/blog_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/blog/static/blog/img/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/archives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/blog/static/blog/img/about_me.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog_redo/blog_redo/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/apps.py">
+    <entry file="file://$PROJECT_DIR$/blog_redo/media/upload/2019/02/14/203030840_header_thumb.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/media/upload/2019/02/14/203030840_header.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="1005">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
@@ -717,119 +731,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog_redo/blog_redo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="405">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/blog/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog_redo/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="195">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/templatetags/blog_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/static/blog/img/favicon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/media/upload/2019/02/14/203030840_header_thumb.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/archives.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
-          <folding>
-            <element signature="n#section#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#form#0;n#div#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="126" column="61" selection-start-line="126" selection-start-column="61" selection-end-line="126" selection-end-column="61" />
-          <folding>
-            <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#symbol#0;n#svg#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#symbol#1;n#svg#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#symbol#2;n#svg#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#symbol#3;n#svg#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#symbol#4;n#svg#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#symbol#5;n#svg#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#symbol#6;n#svg#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#symbol#7;n#svg#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#symbol#8;n#svg#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/static/blog/img/about_me.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding>
             <element signature="n#section#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -843,30 +770,152 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/venv/Django_Play/lib/python3.6/site-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16299">
+          <caret line="1153" column="8" selection-start-line="1153" selection-start-column="8" selection-end-line="1153" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/blog/static/blog/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="1087" column="75" selection-start-line="1087" selection-start-column="71" selection-end-line="1087" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/blog/static/blog/css/jquery.bxslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/blog/static/blog/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog_redo/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="271">
+          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_redo/blog_redo/settings.py">
+    <entry file="file://$USER_HOME$/venv/Django_Play/lib/python3.6/site-packages/django/forms/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        <state relative-caret-position="1448">
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/blog_redo/blog_redo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-815">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="399">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="n#section#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-976">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#form#0;n#div#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/blog/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/templates/Westa/index-fullwidth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5227">
+          <caret line="217" column="23" selection-start-line="217" selection-end-line="218" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="213" column="11" lean-forward="true" selection-start-line="213" selection-start-column="11" selection-end-line="213" selection-end-column="11" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#0;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#1;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#2;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#3;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#4;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#5;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#6;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#7;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#8;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_redo/templates/blog/new_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
         </state>
       </provider>
     </entry>
